@@ -1731,3 +1731,13 @@ kbd {
   min-height: 180px;
   height: auto;
 }
+.icon-button.active:hover:not(:disabled) {
+  background: var(--ink);
+  color: var(--paper);
+}
+.board {
+  background-image: radial-gradient(
+    color-mix(in srgb, var(--ink) 20%, transparent) 0.6px,
+    transparent 0.6px
+  );
+}
